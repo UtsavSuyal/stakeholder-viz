@@ -1,0 +1,115 @@
+{
+  "client": "iberdrola",
+  "generatedAt": "2026-08-01",
+  "note": "All data below is fictional / illustrative, built for the ApexSignal technical assignment. Company names are real for realism; relationship states, quotes, and events are invented.",
+  "nodes": [
+    { "id": "iberdrola", "name": "Iberdrola", "type": "client", "region": "Spain / Global", "relationship": "self", "trend": "stable", "influence": 5, "description": "Spanish multinational utility. Client of this assessment. ~180 TWh generated annually, heavy renewables build-out across Iberia, UK, US, and Brazil.", "lastUpdate": "2026-08-01" },
+
+    { "id": "gov-spain-mitec", "name": "Spanish Ministry for Ecological Transition", "type": "government", "region": "Spain", "relationship": "aligned", "trend": "stable", "influence": 5, "description": "Sets renewable auction schedules and grid permitting timelines that directly gate Iberdrola's Spanish pipeline.", "lastUpdate": "2026-07-20" },
+    { "id": "gov-uk-desnz", "name": "UK Dept. for Energy Security & Net Zero", "type": "government", "region": "United Kingdom", "relationship": "tension", "trend": "deteriorating", "influence": 4, "description": "Ongoing dispute over offshore wind Contracts for Difference strike-price levels; Iberdrola has paused two UK final investment decisions pending the next auction round.", "lastUpdate": "2026-07-28" },
+    { "id": "gov-us-doe", "name": "US Department of Energy", "type": "government", "region": "United States", "relationship": "neutral", "trend": "deteriorating", "influence": 4, "description": "Federal tax-credit guidance for offshore wind (Avangrid assets) remains unsettled, creating financing uncertainty.", "lastUpdate": "2026-07-15" },
+    { "id": "gov-brazil-mme", "name": "Brazilian Ministry of Mines and Energy", "type": "government", "region": "Brazil", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Supportive of Neoenergia's distribution expansion; recent tariff review favored cost recovery.", "lastUpdate": "2026-06-30" },
+    { "id": "gov-basque", "name": "Basque Regional Government", "type": "government", "region": "Spain (Basque Country)", "relationship": "aligned", "trend": "stable", "influence": 2, "description": "Home region of Iberdrola's headquarters; generally cooperative on industrial policy and green hydrogen incentives.", "lastUpdate": "2026-06-10" },
+
+    { "id": "reg-cnmc", "name": "CNMC (Spanish energy regulator)", "type": "regulator", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 5, "description": "Sets allowed returns on regulated grid assets. Current review cycle keeps WACC roughly flat, a mild negative versus Iberdrola's ask.", "lastUpdate": "2026-07-22" },
+    { "id": "reg-ofgem", "name": "Ofgem", "type": "regulator", "region": "United Kingdom", "relationship": "tension", "trend": "deteriorating", "influence": 4, "description": "RIIO price control settlement for ScottishPower networks came in below Iberdrola's requested capex allowance.", "lastUpdate": "2026-07-25" },
+    { "id": "reg-ferc", "name": "FERC", "type": "regulator", "region": "United States", "relationship": "neutral", "trend": "stable", "influence": 3, "description": "Reviewing interconnection queue reform that affects Avangrid's transmission projects in the Northeast.", "lastUpdate": "2026-06-25" },
+    { "id": "reg-aneel", "name": "ANEEL", "type": "regulator", "region": "Brazil", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Brazilian electricity regulator; latest distribution tariff cycle was constructive for Neoenergia.", "lastUpdate": "2026-06-28" },
+    { "id": "reg-eu-commission", "name": "European Commission (DG ENER)", "type": "regulator", "region": "European Union", "relationship": "aligned", "trend": "stable", "influence": 5, "description": "REPowerEU and grid-investment frameworks broadly favor Iberdrola's electrification thesis.", "lastUpdate": "2026-07-01" },
+
+    { "id": "jv-scottishpower", "name": "ScottishPower (subsidiary)", "type": "jv_partner", "region": "United Kingdom", "relationship": "aligned", "trend": "stable", "influence": 4, "description": "Wholly owned UK subsidiary; fully integrated into group strategy.", "lastUpdate": "2026-07-10" },
+    { "id": "jv-avangrid", "name": "Avangrid (subsidiary)", "type": "jv_partner", "region": "United States", "relationship": "aligned", "trend": "stable", "influence": 4, "description": "US subsidiary; NYSE-listed minority float adds governance visibility but not much friction.", "lastUpdate": "2026-07-05" },
+    { "id": "jv-neoenergia", "name": "Neoenergia (subsidiary)", "type": "jv_partner", "region": "Brazil", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Brazilian subsidiary; minority listed on B3. Currently the group's fastest-growing regulated base.", "lastUpdate": "2026-06-30" },
+    { "id": "jv-masdar", "name": "Masdar (offshore wind JV partner)", "type": "jv_partner", "region": "UAE / Global", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Co-investor in East Anglia offshore wind assets; relationship has deepened with a second joint project announced this year.", "lastUpdate": "2026-07-18" },
+
+    { "id": "comp-endesa", "name": "Endesa", "type": "competitor", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 3, "description": "Largest domestic rival for Spanish renewable auction capacity; direct competitor in same CNMC proceedings.", "lastUpdate": "2026-06-15" },
+    { "id": "comp-naturgy", "name": "Naturgy", "type": "competitor", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 3, "description": "Competes for the same grid connection points in northern Spain; occasional co-bidder in international tenders.", "lastUpdate": "2026-06-12" },
+    { "id": "comp-edp", "name": "EDP", "type": "competitor", "region": "Portugal / Spain", "relationship": "neutral", "trend": "stable", "influence": 2, "description": "Iberian rival, particularly in hydro and cross-border interconnection capacity.", "lastUpdate": "2026-05-30" },
+    { "id": "comp-rwe", "name": "RWE", "type": "competitor", "region": "Germany / Global", "relationship": "neutral", "trend": "stable", "influence": 3, "description": "Competes head-to-head in UK and US offshore wind auctions.", "lastUpdate": "2026-06-20" },
+    { "id": "comp-orsted", "name": "Ørsted", "type": "competitor", "region": "Denmark / Global", "relationship": "tension", "trend": "deteriorating", "influence": 3, "description": "Both firms are bidding aggressively into the same depressed US offshore wind tax-credit environment, and industry pricing pressure is mutual.", "lastUpdate": "2026-07-12" },
+
+    { "id": "sup-siemensgamesa", "name": "Siemens Gamesa", "type": "supplier", "region": "Spain / Germany", "relationship": "tension", "trend": "deteriorating", "influence": 4, "description": "Primary offshore turbine supplier; recent blade reliability issues have delayed two UK projects and strained the contract.", "lastUpdate": "2026-07-27" },
+    { "id": "sup-vestas", "name": "Vestas", "type": "supplier", "region": "Denmark", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Secondary onshore turbine supplier, increasingly favored after the Siemens Gamesa reliability issues.", "lastUpdate": "2026-07-20" },
+    { "id": "sup-arcelormittal", "name": "ArcelorMittal", "type": "supplier", "region": "Global", "relationship": "neutral", "trend": "stable", "influence": 2, "description": "Steel supplier for transmission towers and foundations.", "lastUpdate": "2026-05-20" },
+    { "id": "sup-prysmian", "name": "Prysmian", "type": "supplier", "region": "Italy", "relationship": "aligned", "trend": "stable", "influence": 2, "description": "Subsea and grid cabling supplier for offshore interconnections.", "lastUpdate": "2026-06-05" },
+
+    { "id": "cust-microsoft", "name": "Microsoft (PPA offtaker)", "type": "customer", "region": "United States / Global", "relationship": "aligned", "trend": "improving", "influence": 3, "description": "Long-term renewable power purchase agreement backing US data-center demand; recently expanded.", "lastUpdate": "2026-07-08" },
+    { "id": "cust-amazon", "name": "Amazon (PPA offtaker)", "type": "customer", "region": "United States / Global", "relationship": "aligned", "trend": "stable", "influence": 3, "description": "Corporate PPA counterparty for US wind capacity.", "lastUpdate": "2026-06-18" },
+    { "id": "cust-industrial-es", "name": "Spanish Industrial Consumers Association", "type": "customer", "region": "Spain", "relationship": "tension", "trend": "deteriorating", "influence": 2, "description": "Large industrial users lobbying publicly for lower regulated tariffs, putting pressure on Iberdrola's grid revenue assumptions.", "lastUpdate": "2026-07-24" },
+
+    { "id": "fin-eib", "name": "European Investment Bank", "type": "financier", "region": "European Union", "relationship": "aligned", "trend": "stable", "influence": 4, "description": "Provides concessional financing for grid modernization projects.", "lastUpdate": "2026-06-22" },
+    { "id": "fin-blackrock", "name": "BlackRock", "type": "financier", "region": "Global", "relationship": "aligned", "trend": "stable", "influence": 3, "description": "Among the largest institutional shareholders; historically a stable, low-friction holder.", "lastUpdate": "2026-06-01" },
+    { "id": "fin-norges", "name": "Norges Bank Investment Management", "type": "financier", "region": "Norway / Global", "relationship": "aligned", "trend": "stable", "influence": 2, "description": "Large sovereign-wealth shareholder with an active ESG engagement track record.", "lastUpdate": "2026-05-25" },
+    { "id": "fin-santander", "name": "Banco Santander", "type": "financier", "region": "Spain", "relationship": "aligned", "trend": "stable", "influence": 3, "description": "Lead relationship bank for Iberian project financing and hedging.", "lastUpdate": "2026-06-10" },
+
+    { "id": "union-ccoo", "name": "CCOO (industrial union)", "type": "union", "region": "Spain", "relationship": "tension", "trend": "deteriorating", "influence": 2, "description": "In active negotiation over headcount at a legacy thermal plant slated for closure.", "lastUpdate": "2026-07-26" },
+    { "id": "union-ugt", "name": "UGT (industrial union)", "type": "union", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 2, "description": "Co-party to the same thermal-closure negotiation; historically more conciliatory than CCOO.", "lastUpdate": "2026-07-26" },
+
+    { "id": "ngo-greenpeace", "name": "Greenpeace Spain", "type": "ngo", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 2, "description": "Generally supportive of Iberdrola's renewables build-out but publicly critical of remaining gas-plant capacity.", "lastUpdate": "2026-06-14" },
+    { "id": "ngo-clientearth", "name": "ClientEarth", "type": "ngo", "region": "European Union", "relationship": "tension", "trend": "deteriorating", "influence": 2, "description": "Has threatened litigation over the permitting pathway for a contested onshore wind corridor in northern Spain.", "lastUpdate": "2026-07-29" },
+
+    { "id": "ind-regulator-chair", "name": "Chair, CNMC Energy Division", "type": "individual", "region": "Spain", "relationship": "neutral", "trend": "stable", "influence": 3, "description": "Career regulator seen as a swing vote on the pending WACC review.", "lastUpdate": "2026-07-22" },
+    { "id": "ind-uk-minister", "name": "UK Minister for Energy Security", "type": "individual", "region": "United Kingdom", "relationship": "tension", "trend": "deteriorating", "influence": 3, "description": "Publicly signaled impatience with developer demands in the CfD process ahead of the next auction round.", "lastUpdate": "2026-07-28" }
+  ],
+  "edges": [
+    { "source": "iberdrola", "target": "gov-spain-mitec", "type": "regulatory", "strength": 5, "state": "stable", "direction": "undirected", "description": "Primary domestic policy relationship governing auction access and permitting speed." },
+    { "source": "iberdrola", "target": "gov-uk-desnz", "type": "regulatory", "strength": 4, "state": "deteriorating", "direction": "undirected", "description": "CfD strike-price dispute has stalled two offshore FIDs." },
+    { "source": "iberdrola", "target": "gov-us-doe", "type": "regulatory", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Tax-credit guidance uncertainty affects Avangrid offshore financing." },
+    { "source": "iberdrola", "target": "gov-brazil-mme", "type": "regulatory", "strength": 3, "state": "improving", "direction": "undirected", "description": "Favorable tariff review supports Neoenergia expansion." },
+    { "source": "iberdrola", "target": "gov-basque", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Cooperative home-region relationship; green hydrogen incentives." },
+
+    { "source": "iberdrola", "target": "reg-cnmc", "type": "regulatory", "strength": 5, "state": "stable", "direction": "directed", "description": "Regulated returns on Spanish grid assets set here." },
+    { "source": "iberdrola", "target": "reg-ofgem", "type": "regulatory", "strength": 4, "state": "deteriorating", "direction": "directed", "description": "RIIO settlement below requested capex allowance." },
+    { "source": "iberdrola", "target": "reg-ferc", "type": "regulatory", "strength": 3, "state": "stable", "direction": "directed", "description": "Interconnection queue reform affecting US transmission." },
+    { "source": "iberdrola", "target": "reg-aneel", "type": "regulatory", "strength": 3, "state": "improving", "direction": "directed", "description": "Constructive Brazilian tariff cycle." },
+    { "source": "iberdrola", "target": "reg-eu-commission", "type": "regulatory", "strength": 4, "state": "stable", "direction": "directed", "description": "REPowerEU framework broadly favorable." },
+    { "source": "reg-cnmc", "target": "comp-endesa", "type": "regulatory", "strength": 3, "state": "stable", "direction": "directed", "description": "Same regulatory proceedings and auction rules apply to Endesa." },
+    { "source": "reg-ofgem", "target": "ind-uk-minister", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Regulator and ministry coordinate on CfD auction design." },
+    { "source": "reg-cnmc", "target": "ind-regulator-chair", "type": "ownership", "strength": 3, "state": "stable", "direction": "directed", "description": "Chair sits on CNMC's energy division." },
+
+    { "source": "iberdrola", "target": "jv-scottishpower", "type": "ownership", "strength": 5, "state": "stable", "direction": "directed", "description": "Wholly owned subsidiary." },
+    { "source": "iberdrola", "target": "jv-avangrid", "type": "ownership", "strength": 5, "state": "stable", "direction": "directed", "description": "Majority-owned, NYSE-listed subsidiary." },
+    { "source": "iberdrola", "target": "jv-neoenergia", "type": "ownership", "strength": 5, "state": "improving", "direction": "directed", "description": "Majority-owned, B3-listed subsidiary; fastest-growing regulated base." },
+    { "source": "iberdrola", "target": "jv-masdar", "type": "financing", "strength": 3, "state": "improving", "direction": "undirected", "description": "Co-investment partner on East Anglia offshore assets; second JV project just announced." },
+    { "source": "jv-scottishpower", "target": "gov-uk-desnz", "type": "regulatory", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Subsidiary directly holds the CfD dispute." },
+    { "source": "jv-avangrid", "target": "gov-us-doe", "type": "regulatory", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Subsidiary is the counterparty on tax-credit guidance." },
+    { "source": "jv-neoenergia", "target": "reg-aneel", "type": "regulatory", "strength": 3, "state": "improving", "direction": "directed", "description": "Direct regulatory relationship on tariffs." },
+
+    { "source": "iberdrola", "target": "comp-endesa", "type": "competitive", "strength": 3, "state": "stable", "direction": "undirected", "description": "Head-to-head in Spanish renewable auctions." },
+    { "source": "iberdrola", "target": "comp-naturgy", "type": "competitive", "strength": 2, "state": "stable", "direction": "undirected", "description": "Overlapping grid connection points." },
+    { "source": "iberdrola", "target": "comp-edp", "type": "competitive", "strength": 2, "state": "stable", "direction": "undirected", "description": "Iberian hydro and interconnection rivalry." },
+    { "source": "iberdrola", "target": "comp-rwe", "type": "competitive", "strength": 3, "state": "stable", "direction": "undirected", "description": "Compete directly in UK and US offshore auctions." },
+    { "source": "iberdrola", "target": "comp-orsted", "type": "competitive", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Mutual pricing pressure in depressed US offshore market." },
+    { "source": "comp-rwe", "target": "sup-siemensgamesa", "type": "commercial", "strength": 2, "state": "stable", "direction": "undirected", "description": "Shared turbine supplier across competitors." },
+    { "source": "comp-orsted", "target": "gov-us-doe", "type": "regulatory", "strength": 2, "state": "deteriorating", "direction": "undirected", "description": "Also exposed to the same tax-credit uncertainty." },
+
+    { "source": "iberdrola", "target": "sup-siemensgamesa", "type": "commercial", "strength": 4, "state": "deteriorating", "direction": "undirected", "description": "Blade reliability issues have delayed two UK offshore projects." },
+    { "source": "iberdrola", "target": "sup-vestas", "type": "commercial", "strength": 3, "state": "improving", "direction": "undirected", "description": "Gaining share as Siemens Gamesa relationship strains." },
+    { "source": "iberdrola", "target": "sup-arcelormittal", "type": "commercial", "strength": 2, "state": "stable", "direction": "undirected", "description": "Steady steel supply contract." },
+    { "source": "iberdrola", "target": "sup-prysmian", "type": "commercial", "strength": 2, "state": "stable", "direction": "undirected", "description": "Subsea cabling for offshore interconnections." },
+    { "source": "jv-scottishpower", "target": "sup-siemensgamesa", "type": "commercial", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Directly holds the affected UK turbine contracts." },
+
+    { "source": "iberdrola", "target": "cust-microsoft", "type": "commercial", "strength": 3, "state": "improving", "direction": "undirected", "description": "Expanded renewable PPA for US data-center demand." },
+    { "source": "iberdrola", "target": "cust-amazon", "type": "commercial", "strength": 3, "state": "stable", "direction": "undirected", "description": "Corporate PPA for US wind capacity." },
+    { "source": "iberdrola", "target": "cust-industrial-es", "type": "advocacy", "strength": 2, "state": "deteriorating", "direction": "undirected", "description": "Public lobbying for lower regulated tariffs." },
+    { "source": "cust-industrial-es", "target": "gov-spain-mitec", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Lobbies the ministry directly on tariff policy." },
+
+    { "source": "iberdrola", "target": "fin-eib", "type": "financing", "strength": 4, "state": "stable", "direction": "undirected", "description": "Concessional financing for grid modernization." },
+    { "source": "iberdrola", "target": "fin-blackrock", "type": "financing", "strength": 3, "state": "stable", "direction": "undirected", "description": "Large stable institutional shareholder." },
+    { "source": "iberdrola", "target": "fin-norges", "type": "financing", "strength": 2, "state": "stable", "direction": "undirected", "description": "Sovereign-wealth shareholder with active ESG engagement." },
+    { "source": "iberdrola", "target": "fin-santander", "type": "financing", "strength": 3, "state": "stable", "direction": "undirected", "description": "Lead relationship bank for project financing." },
+    { "source": "fin-eib", "target": "reg-eu-commission", "type": "financing", "strength": 2, "state": "stable", "direction": "undirected", "description": "EIB financing aligned with EU policy framework." },
+
+    { "source": "iberdrola", "target": "union-ccoo", "type": "labor", "strength": 3, "state": "deteriorating", "direction": "undirected", "description": "Active negotiation over thermal plant closure headcount." },
+    { "source": "iberdrola", "target": "union-ugt", "type": "labor", "strength": 2, "state": "stable", "direction": "undirected", "description": "Co-party to closure talks, more conciliatory stance." },
+    { "source": "union-ccoo", "target": "union-ugt", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Coordinate jointly in negotiations." },
+
+    { "source": "iberdrola", "target": "ngo-greenpeace", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Broadly supportive of renewables build-out, critical of residual gas capacity." },
+    { "source": "iberdrola", "target": "ngo-clientearth", "type": "advocacy", "strength": 2, "state": "deteriorating", "direction": "undirected", "description": "Threatened litigation over onshore wind permitting corridor." },
+    { "source": "ngo-clientearth", "target": "reg-eu-commission", "type": "advocacy", "strength": 1, "state": "stable", "direction": "undirected", "description": "Also engages the Commission on permitting policy." },
+
+    { "source": "gov-uk-desnz", "target": "ind-uk-minister", "type": "ownership", "strength": 3, "state": "stable", "direction": "directed", "description": "Minister leads the department." },
+    { "source": "iberdrola", "target": "ind-uk-minister", "type": "advocacy", "strength": 2, "state": "deteriorating", "direction": "undirected", "description": "Direct lobbying channel amid the CfD dispute." },
+    { "source": "iberdrola", "target": "ind-regulator-chair", "type": "advocacy", "strength": 2, "state": "stable", "direction": "undirected", "description": "Engagement ahead of the pending WACC vote." }
+  ]
+}
